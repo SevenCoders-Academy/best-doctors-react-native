@@ -11,11 +11,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		437B974F2690C29100EB751B /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B9D2BA63B14F0FBE7DE5B4 /* IBMPlexSans-Bold.ttf */; };
+		437B97502690C29100EB751B /* IBMPlexSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1225B9EE72904219AE28C8B1 /* IBMPlexSans-Medium.ttf */; };
+		437B97512690C29100EB751B /* IBMPlexSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17FD89B405CA48809CAE40CB /* IBMPlexSans-Regular.ttf */; };
+		437B97522690C29100EB751B /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ABB5C823C3D4F3DBB626F1E /* IBMPlexSans-SemiBold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		878174E4379142968F3FECCF /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B9D2BA63B14F0FBE7DE5B4 /* IBMPlexSans-Bold.ttf */; };
-		9BF937E0F6FB469B8198F60B /* IBMPlexSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1225B9EE72904219AE28C8B1 /* IBMPlexSans-Medium.ttf */; };
-		B1DA30598CD848C8981615BC /* IBMPlexSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17FD89B405CA48809CAE40CB /* IBMPlexSans-Regular.ttf */; };
-		2E4CA002E26A49878B55C992 /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ABB5C823C3D4F3DBB626F1E /* IBMPlexSans-SemiBold.ttf */; };
+		82D0709673C119ED3A17EC2D /* libPods-BestDoctorsApp-BestDoctorsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A60F6038D6D3AD5271C8DB8 /* libPods-BestDoctorsApp-BestDoctorsAppTests.a */; };
+		B67B31086E8E2474D516B5FE /* libPods-BestDoctorsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AA7AB16DC18013C6920D0F /* libPods-BestDoctorsApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,18 +34,40 @@
 		00E356EE1AD99517003FC87E /* BestDoctorsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestDoctorsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* BestDoctorsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestDoctorsAppTests.m; sourceTree = "<group>"; };
+		09281B40BDFE4FFCBFDE94BA /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		1225B9EE72904219AE28C8B1 /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Medium.ttf"; path = "../src/assets/fonts/IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* BestDoctorsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestDoctorsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BestDoctorsApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BestDoctorsApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BestDoctorsApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BestDoctorsApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BestDoctorsApp/main.m; sourceTree = "<group>"; };
+		17FD89B405CA48809CAE40CB /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Regular.ttf"; path = "../src/assets/fonts/IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
+		19B0299AAC5334B63457AEE0 /* Pods-BestDoctorsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestDoctorsApp.release.xcconfig"; path = "Target Support Files/Pods-BestDoctorsApp/Pods-BestDoctorsApp.release.xcconfig"; sourceTree = "<group>"; };
+		25809153B553440C67857C3C /* Pods-BestDoctorsApp-BestDoctorsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestDoctorsApp-BestDoctorsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BestDoctorsApp-BestDoctorsAppTests/Pods-BestDoctorsApp-BestDoctorsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28AA2EAC6B0A4BDCBA866BC7 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		2D307A9EC2D8441BA2FD324C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		41F9AA510951435B95AAE8A1 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		4C74D2894CE9426BB5EDC2DD /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		4F3BB1E6FBB346EC90E42D91 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		58F394D85A284908AC22F090 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		5ABB5C823C3D4F3DBB626F1E /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-SemiBold.ttf"; path = "../src/assets/fonts/IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		5EDC286BBA614072A9434CFA /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		6A60F6038D6D3AD5271C8DB8 /* libPods-BestDoctorsApp-BestDoctorsAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BestDoctorsApp-BestDoctorsAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F841EEEC984A0C8F44172D /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BestDoctorsApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		882E35424FC94B9780222F1E /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		959BFFF47A8A43ECB047A536 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		AD359A8A33384D858023C65C /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		B0AA7AB16DC18013C6920D0F /* libPods-BestDoctorsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BestDoctorsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95C9D5EF10D45C4886F5BA4 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		BECB998ABB0F409CA124E6A8 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		C45D9C6CBACCCDFF46A636FC /* Pods-BestDoctorsApp-BestDoctorsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestDoctorsApp-BestDoctorsAppTests.release.xcconfig"; path = "Target Support Files/Pods-BestDoctorsApp-BestDoctorsAppTests/Pods-BestDoctorsApp-BestDoctorsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7B9D2BA63B14F0FBE7DE5B4 /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Bold.ttf"; path = "../src/assets/fonts/IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
+		C87586BC788644FEB0C961AF /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		C7B9D2BA63B14F0FBE7DE5B4 /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-Bold.ttf"; path = "../src/assets/fonts/IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1225B9EE72904219AE28C8B1 /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-Medium.ttf"; path = "../src/assets/fonts/IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		17FD89B405CA48809CAE40CB /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-Regular.ttf"; path = "../src/assets/fonts/IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5ABB5C823C3D4F3DBB626F1E /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "IBMPlexSans-SemiBold.ttf"; path = "../src/assets/fonts/IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F82FBFA85B344FA2EC54C12E /* Pods-BestDoctorsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestDoctorsApp.debug.xcconfig"; path = "Target Support Files/Pods-BestDoctorsApp/Pods-BestDoctorsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FC75379E32F8434A90453D90 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D0709673C119ED3A17EC2D /* libPods-BestDoctorsApp-BestDoctorsAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67B31086E8E2474D516B5FE /* libPods-BestDoctorsApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +124,48 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				B0AA7AB16DC18013C6920D0F /* libPods-BestDoctorsApp.a */,
+				6A60F6038D6D3AD5271C8DB8 /* libPods-BestDoctorsApp-BestDoctorsAppTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4724B9F4C9664C5087020AFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7B9D2BA63B14F0FBE7DE5B4 /* IBMPlexSans-Bold.ttf */,
+				1225B9EE72904219AE28C8B1 /* IBMPlexSans-Medium.ttf */,
+				17FD89B405CA48809CAE40CB /* IBMPlexSans-Regular.ttf */,
+				5ABB5C823C3D4F3DBB626F1E /* IBMPlexSans-SemiBold.ttf */,
+				74F841EEEC984A0C8F44172D /* AntDesign.ttf */,
+				28AA2EAC6B0A4BDCBA866BC7 /* Entypo.ttf */,
+				5EDC286BBA614072A9434CFA /* EvilIcons.ttf */,
+				B95C9D5EF10D45C4886F5BA4 /* Feather.ttf */,
+				09281B40BDFE4FFCBFDE94BA /* FontAwesome.ttf */,
+				882E35424FC94B9780222F1E /* FontAwesome5_Brands.ttf */,
+				4F3BB1E6FBB346EC90E42D91 /* FontAwesome5_Regular.ttf */,
+				BECB998ABB0F409CA124E6A8 /* FontAwesome5_Solid.ttf */,
+				58F394D85A284908AC22F090 /* Fontisto.ttf */,
+				959BFFF47A8A43ECB047A536 /* Foundation.ttf */,
+				4C74D2894CE9426BB5EDC2DD /* Ionicons.ttf */,
+				C87586BC788644FEB0C961AF /* MaterialCommunityIcons.ttf */,
+				AD359A8A33384D858023C65C /* MaterialIcons.ttf */,
+				41F9AA510951435B95AAE8A1 /* Octicons.ttf */,
+				2D307A9EC2D8441BA2FD324C /* SimpleLineIcons.ttf */,
+				FC75379E32F8434A90453D90 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5B1FABF188A7BD8820D89BE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F82FBFA85B344FA2EC54C12E /* Pods-BestDoctorsApp.debug.xcconfig */,
+				19B0299AAC5334B63457AEE0 /* Pods-BestDoctorsApp.release.xcconfig */,
+				25809153B553440C67857C3C /* Pods-BestDoctorsApp-BestDoctorsAppTests.debug.xcconfig */,
+				C45D9C6CBACCCDFF46A636FC /* Pods-BestDoctorsApp-BestDoctorsAppTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -118,6 +184,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				4724B9F4C9664C5087020AFD /* Resources */,
+				5B1FABF188A7BD8820D89BE3 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -133,18 +200,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4724B9F4C9664C5087020AFD /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				C7B9D2BA63B14F0FBE7DE5B4 /* IBMPlexSans-Bold.ttf */,
-				1225B9EE72904219AE28C8B1 /* IBMPlexSans-Medium.ttf */,
-				17FD89B405CA48809CAE40CB /* IBMPlexSans-Regular.ttf */,
-				5ABB5C823C3D4F3DBB626F1E /* IBMPlexSans-SemiBold.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BestDoctorsAppTests" */;
 			buildPhases = (
+				93B7C17D95B9518815568D36 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				6032438F03F6F51DB145AD71 /* [CP] Embed Pods Frameworks */,
+				FFF1458F891EBD9EF1D7CC4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,11 +228,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BestDoctorsApp" */;
 			buildPhases = (
+				3573CD7BCC0D2D7EBF98150B /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				3782FCBC6799D68A309B16A7 /* [CP] Embed Pods Frameworks */,
+				BFA250F314A8AC140E6E2DF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,10 +296,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				878174E4379142968F3FECCF /* IBMPlexSans-Bold.ttf in Resources */,
-				9BF937E0F6FB469B8198F60B /* IBMPlexSans-Medium.ttf in Resources */,
-				B1DA30598CD848C8981615BC /* IBMPlexSans-Regular.ttf in Resources */,
-				2E4CA002E26A49878B55C992 /* IBMPlexSans-SemiBold.ttf in Resources */,
+				437B974F2690C29100EB751B /* IBMPlexSans-Bold.ttf in Resources */,
+				437B97502690C29100EB751B /* IBMPlexSans-Medium.ttf in Resources */,
+				437B97512690C29100EB751B /* IBMPlexSans-Regular.ttf in Resources */,
+				437B97522690C29100EB751B /* IBMPlexSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +320,101 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
+		3573CD7BCC0D2D7EBF98150B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BestDoctorsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3782FCBC6799D68A309B16A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestDoctorsApp/Pods-BestDoctorsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestDoctorsApp/Pods-BestDoctorsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BestDoctorsApp/Pods-BestDoctorsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6032438F03F6F51DB145AD71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestDoctorsApp-BestDoctorsAppTests/Pods-BestDoctorsApp-BestDoctorsAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestDoctorsApp-BestDoctorsAppTests/Pods-BestDoctorsApp-BestDoctorsAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BestDoctorsApp-BestDoctorsAppTests/Pods-BestDoctorsApp-BestDoctorsAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B7C17D95B9518815568D36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BestDoctorsApp-BestDoctorsAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA250F314A8AC140E6E2DF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestDoctorsApp/Pods-BestDoctorsApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestDoctorsApp/Pods-BestDoctorsApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BestDoctorsApp/Pods-BestDoctorsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,6 +432,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFF1458F891EBD9EF1D7CC4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestDoctorsApp-BestDoctorsAppTests/Pods-BestDoctorsApp-BestDoctorsAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestDoctorsApp-BestDoctorsAppTests/Pods-BestDoctorsApp-BestDoctorsAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BestDoctorsApp-BestDoctorsAppTests/Pods-BestDoctorsApp-BestDoctorsAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -311,6 +484,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25809153B553440C67857C3C /* Pods-BestDoctorsApp-BestDoctorsAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -337,6 +511,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45D9C6CBACCCDFF46A636FC /* Pods-BestDoctorsApp-BestDoctorsAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -360,11 +535,13 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F82FBFA85B344FA2EC54C12E /* Pods-BestDoctorsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				INFOPLIST_FILE = BestDoctorsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -385,6 +562,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B0299AAC5334B63457AEE0 /* Pods-BestDoctorsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -439,6 +617,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -503,6 +682,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

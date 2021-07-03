@@ -1,6 +1,9 @@
+import { Platform } from 'react-native';
+
 export const fonts = {
-  bold: 'IBMPlexSans-Bold',
-  semiBold: 'IBMPlexSans-SemiBold',
-  medium: 'IBMPlexSans-Medium',
-  regular: 'IBMPlexSans-Regular',
+  bold: Platform.OS === 'ios' ? 'IBM Plex Sans Bold' : 'IBMPlexSans-Bold',
+  regular: Platform.OS === 'ios' ? 'IBM Plex Sans' : 'IBMPlexSans-Regular',
+  semiBold:
+    Platform.OS === 'ios' ? 'IBM Plex Sans SemiBold' : 'IBMPlexSans-SemiBold',
+  medium: Platform.OS === 'ios' ? 'IBM Plex Sans Medium' : 'IBMPlexSans-Medium',
 };
