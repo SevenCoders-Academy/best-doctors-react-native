@@ -1,8 +1,8 @@
 import React from 'react';
 import Icon from 'react-native-vector-icons/AntDesign';
-import {useNavigation} from '@react-navigation/native';
-import {BaseTouchContainer} from '../Container';
-import {colors} from '~/styles/colors';
+import { useNavigation } from '@react-navigation/native';
+import { BaseTouchContainer } from '../Container';
+import { colors } from '~/styles/colors';
 
 export const GoBackButton = () => {
   const navigation = useNavigation();

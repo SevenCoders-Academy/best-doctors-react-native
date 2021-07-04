@@ -1,7 +1,7 @@
 import React from 'react';
-import {ButtonContainer, TextButton} from './styles';
+import { ButtonContainer, TextButton } from './styles';
 
-export const Button = ({children, outline, onPress, floating, ...props}) => {
+export const Button = ({ children, outline, onPress, floating, ...props }) => {
   return (
     <ButtonContainer
       floating={floating}
