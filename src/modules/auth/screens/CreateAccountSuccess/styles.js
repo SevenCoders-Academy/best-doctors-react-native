@@ -12,6 +12,6 @@ export const Container = styled.View`
 `;
 
 export const SuccessImg = styled.Image`
-  width: ${({theme}) => theme.metrics.px(230)}px;
-  height: ${({theme}) => theme.metrics.px(230)}px;
+  width: ${({ theme }) => theme.metrics.px(230)}px;
+  height: ${({ theme }) => theme.metrics.px(230)}px;
 `;

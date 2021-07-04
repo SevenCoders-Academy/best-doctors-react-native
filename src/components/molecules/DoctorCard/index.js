@@ -1,13 +1,13 @@
 import React from 'react';
-import {AirbnbRating} from 'react-native-ratings';
-import {BaseTouchContainer, Avatar, BaseText} from '../../atoms';
-import {useNavigation} from '@react-navigation/native';
-import {AvatarContainer, TextContainer, RatingContainer} from './styles';
-import {useAppointmentStore} from '~/services/store';
+import { AirbnbRating } from 'react-native-ratings';
+import { BaseTouchContainer, Avatar, BaseText } from '../../atoms';
+import { useNavigation } from '@react-navigation/native';
+import { AvatarContainer, TextContainer, RatingContainer } from './styles';
+import { useAppointmentStore } from '~/services/store';
 
-export const DoctorCard = ({doctor}) => {
+export const DoctorCard = ({ doctor }) => {
   const navigation = useNavigation();
-  const {setDoctor} = useAppointmentStore();
+  const { setDoctor } = useAppointmentStore();
 
   const onClick = () => {
     setDoctor(doctor);
@@ -23,7 +23,7 @@ export const DoctorCard = ({doctor}) => {
       w="328"
       br="16">
       <AvatarContainer>
-        <Avatar source={{uri: doctor.image}} />
+        <Avatar source={{ uri: doctor.image }} />
       </AvatarContainer>
       <TextContainer>
         <BaseText size={16} color="dark" fontFamily="bold">

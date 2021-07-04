@@ -1,16 +1,16 @@
 import React from 'react';
 import * as Yup from 'yup';
-import {useFormik} from 'formik';
-import {AuthWrapper, Input, TextLink, Button} from '~/components';
-import {useAuthStore} from '~/services/store';
+import { useFormik } from 'formik';
+import { AuthWrapper, Input, Button } from '~/components';
+import { useAuthStore } from '~/services/store';
 
-export const CreateAccountScreen = ({navigation}) => {
-  const {setUser} = useAuthStore();
+export const CreateAccountScreen = ({ navigation }) => {
+  const { setUser } = useAuthStore();
   const goToSelectAccount = () => {
     navigation.navigate('SelectAccount');
   };
 
-  const {values, handleSubmit, setFieldValue, errors} = useFormik({
+  const { values, handleSubmit, setFieldValue, errors } = useFormik({
     initialValues: {
       name: '',
       email: '',

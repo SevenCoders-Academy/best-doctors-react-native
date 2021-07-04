@@ -1,8 +1,8 @@
-import {text, boolean} from '@storybook/addon-knobs';
-import {storiesOf} from '@storybook/react-native';
+import { text, boolean } from '@storybook/addon-knobs';
+import { storiesOf } from '@storybook/react-native';
 import React from 'react';
-import {Button} from './index';
-import {Container} from '../Container';
+import { Button } from './index';
+import { Container } from '../Container';
 
 const story = storiesOf('Button', module);
 

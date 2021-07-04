@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import {InputContainer, InputLabel, InputText, ErrorLabel} from './styles';
+import React, { useState } from 'react';
+import { InputContainer, InputLabel, InputText, ErrorLabel } from './styles';
 
 export const Input = ({
   label,

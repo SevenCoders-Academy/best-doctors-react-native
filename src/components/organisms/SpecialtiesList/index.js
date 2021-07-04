@@ -1,6 +1,6 @@
 import React from 'react';
-import {SpecialtyCard} from '~/components/molecules';
-import {List} from './styles';
+import { SpecialtyCard } from '~/components/molecules';
+import { List } from './styles';
 
 const MOCKDATA = [
   {
@@ -45,7 +45,7 @@ export const SpecialtiesList = () => (
   <List
     horizontal
     data={MOCKDATA}
-    renderItem={({item}) => <SpecialtyCard text={item.title} />}
+    renderItem={({ item }) => <SpecialtyCard text={item.title} />}
     keyExtractor={item => item.id}
     showsHorizontalScrollIndicator={false}
   />

@@ -1,8 +1,8 @@
 import React from 'react';
-import {CardContainer, TextView, CheckView, CheckCircle} from './styles';
-import {CardTitle, RegularText} from '../../atoms';
+import { CardContainer, TextView, CheckView, CheckCircle } from './styles';
+import { CardTitle, RegularText } from '../../atoms';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import {metrics} from '~/styles/metrics';
+import { metrics } from '~/styles/metrics';
 
 export const SelectTypeCard = ({
   selected,

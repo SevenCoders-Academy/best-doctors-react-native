@@ -1,7 +1,7 @@
-import {storiesOf} from '@storybook/react-native';
+import { storiesOf } from '@storybook/react-native';
 import React from 'react';
-import {DoctorCard} from './index';
-import {Container} from '../../atoms/Container';
+import { DoctorCard } from './index';
+import { Container } from '../../atoms/Container';
 
 const story = storiesOf('DoctorCard', module);
 

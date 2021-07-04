@@ -1,8 +1,7 @@
 import React from 'react';
-import {AuthWrapper, Input, TextLink, Button} from '~/components';
-import {ButtonContainer, ContentContainer} from './styles';
+import { AuthWrapper, Input, TextLink, Button } from '~/components';
 
-export const LoginScreen = ({navigation}) => {
+export const LoginScreen = ({ navigation }) => {
   const goToCreateAccount = () => {
     navigation.navigate('CreateAccount');
   };

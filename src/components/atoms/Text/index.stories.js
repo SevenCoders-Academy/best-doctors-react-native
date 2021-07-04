@@ -1,8 +1,8 @@
-import {text} from '@storybook/addon-knobs';
-import {storiesOf} from '@storybook/react-native';
+import { text } from '@storybook/addon-knobs';
+import { storiesOf } from '@storybook/react-native';
 import React from 'react';
-import {Title, CardTitle, RegularText} from './index';
-import {Container} from '../Container';
+import { Title, CardTitle, RegularText } from './index';
+import { Container } from '../Container';
 
 const story = storiesOf('Text', module);
 

@@ -1,6 +1,6 @@
-import {Dimensions, PixelRatio} from 'react-native';
+import { Dimensions, PixelRatio } from 'react-native';
 
-const {height, width} = Dimensions.get('window');
+const { height, width } = Dimensions.get('window');
 
 const wp = widthPercent => {
   const screenPixel = PixelRatio.roundToNearestPixel(

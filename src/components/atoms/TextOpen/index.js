@@ -1,10 +1,10 @@
 import React from 'react';
-import {BaseText} from '../Text';
-import {MainContainer} from './styles';
+import { BaseText } from '../Text';
+import { MainContainer } from './styles';
 import Icon from 'react-native-vector-icons/Ionicons';
-import {colors} from '~/styles/colors';
+import { colors } from '~/styles/colors';
 
-export const TextOpen = ({children}) => (
+export const TextOpen = ({ children }) => (
   <MainContainer>
     <BaseText fontFamily="medium" size={14}>
       {children}

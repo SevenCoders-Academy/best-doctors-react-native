@@ -30,8 +30,8 @@ export const CardTitle = styled(BaseText)`
 
 export const RegularText = styled(BaseText)`
   font-size: ${({ theme, size }) => theme.metrics.px(size || 14)}px;
-  font-family: ${({ theme }) => theme.fonts.bold};
-  color: ${({ theme }) => theme.colors.dark};
+  font-family: ${({ theme }) => theme.fonts.regular};
+  color: ${({ theme }) => theme.colors.greyDark};
 `;
 
 export const SemiBoldText = styled(BaseText)`

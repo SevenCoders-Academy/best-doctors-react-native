@@ -1,8 +1,8 @@
 import React from 'react';
-import {BaseText} from '~/components/atoms';
-import {CardContainer} from './styles';
+import { BaseText } from '~/components/atoms';
+import { CardContainer } from './styles';
 
-export const SpecialtyCard = ({text, selected}) => (
+export const SpecialtyCard = ({ text, selected }) => (
   <CardContainer>
     <BaseText
       size={14}

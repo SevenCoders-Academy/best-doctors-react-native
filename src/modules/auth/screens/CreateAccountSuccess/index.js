@@ -1,6 +1,6 @@
 import React from 'react';
-import {AuthWrapper, Title, Button} from '~/components';
-import {Container, SuccessImg} from './styles';
+import { AuthWrapper, Title, Button } from '~/components';
+import { Container, SuccessImg } from './styles';
 import checkImage from '~/assets/img/testsada.png';
 
 export const CreateAccountSuccessScreen = () => {

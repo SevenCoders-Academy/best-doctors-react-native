@@ -1,9 +1,9 @@
 import React from 'react';
-import {Title} from '~/components/atoms';
-import {Container, ButtonContainer, ContentContainer} from './styles';
+import { Title } from '~/components/atoms';
+import { Container, ButtonContainer, ContentContainer } from './styles';
 import background from '~/assets/img/auth_background.png';
 
-export const AuthWrapper = ({children, title, bottomChildren}) => {
+export const AuthWrapper = ({ children, title, bottomChildren }) => {
   return (
     <Container source={background}>
       <ContentContainer>

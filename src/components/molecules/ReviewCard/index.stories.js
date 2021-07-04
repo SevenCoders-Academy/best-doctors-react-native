@@ -1,7 +1,7 @@
-import {storiesOf} from '@storybook/react-native';
+import { storiesOf } from '@storybook/react-native';
 import React from 'react';
-import {ReviewCard} from './index';
-import {Container} from '../../atoms/Container';
+import { ReviewCard } from './index';
+import { Container } from '../../atoms/Container';
 
 const story = storiesOf('ReviewCard', module);
 

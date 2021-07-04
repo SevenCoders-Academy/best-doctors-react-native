@@ -8,7 +8,7 @@ import {
   BaseTouchContainer,
 } from '~/components';
 
-export const ConfirmPhoneScreen = ({navigation}) => {
+export const ConfirmPhoneScreen = ({ navigation }) => {
   const goToSuccess = () => {
     navigation.navigate('CreateAccountSuccess');
   };

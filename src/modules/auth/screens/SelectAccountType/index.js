@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
-import {AuthWrapper, SelectTypeCard, Button} from '~/components';
-import {useAuthStore} from '~/services/store';
+import React, { useState } from 'react';
+import { AuthWrapper, SelectTypeCard, Button } from '~/components';
+import { useAuthStore } from '~/services/store';
 
-export const SelectTypeCardScreen = ({navigation}) => {
-  const {setUser} = useAuthStore();
+export const SelectTypeCardScreen = ({ navigation }) => {
+  const { setUser } = useAuthStore();
   const goToConfirmPhone = () => {
     if (accountType) {
       setUser({

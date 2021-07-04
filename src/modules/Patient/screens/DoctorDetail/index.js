@@ -41,7 +41,6 @@ export const DoctorDetailScreen = () => {
             <RowView>
               <AirbnbRating
                 size={14}
-                W
                 showRating={false}
                 isDisabled
                 defaultRating={doctor.rating}

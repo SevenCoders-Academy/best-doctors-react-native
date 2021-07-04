@@ -5,11 +5,11 @@ export const BottomBarContainer = styled.View`
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
-  width: ${({theme}) => theme.metrics.wp(100)}px;
-  height: ${({theme}) => theme.metrics.px(64)}px;
-  background-color: ${({theme}) => theme.colors.greyLight};
-  border-top-left-radius: ${({theme}) => theme.metrics.px(24)}px;
-  border-top-right-radius: ${({theme}) => theme.metrics.px(24)}px;
+  width: ${({ theme }) => theme.metrics.wp(100)}px;
+  height: ${({ theme }) => theme.metrics.px(64)}px;
+  background-color: ${({ theme }) => theme.colors.greyLight};
+  border-top-left-radius: ${({ theme }) => theme.metrics.px(24)}px;
+  border-top-right-radius: ${({ theme }) => theme.metrics.px(24)}px;
   overflow: hidden;
   position: absolute;
   bottom: 0;

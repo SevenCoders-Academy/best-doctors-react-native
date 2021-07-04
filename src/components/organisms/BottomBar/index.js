@@ -1,7 +1,7 @@
 import React from 'react';
 import ICON from 'react-native-vector-icons/AntDesign';
-import {colors} from '~/styles/colors';
-import {BottomBarContainer, BarItem} from './styles';
+import { colors } from '~/styles/colors';
+import { BottomBarContainer, BarItem } from './styles';
 
 const ICONS_ASSETS = [
   {
@@ -26,7 +26,7 @@ const ICONS_ASSETS = [
   },
 ];
 
-export const BottomBar = ({state, descriptors, navigation}) => {
+export const BottomBar = ({ state, descriptors, navigation }) => {
   const focusedOptions = descriptors[state.routes[state.index].key].options;
 
   if (focusedOptions.tabBarVisible === false) {
@@ -36,7 +36,7 @@ export const BottomBar = ({state, descriptors, navigation}) => {
   return (
     <BottomBarContainer>
       {state.routes.map((route, index) => {
-        const {options} = descriptors[route.key];
+        const { options } = descriptors[route.key];
         const label =
           options.tabBarLabel !== undefined
             ? options.tabBarLabel
@@ -71,7 +71,7 @@ export const BottomBar = ({state, descriptors, navigation}) => {
           <BarItem
             key={ItemInfo.id}
             accessibilityRole="button"
-            accessibilityState={isFocused ? {selected: true} : {}}
+            accessibilityState={isFocused ? { selected: true } : {}}
             accessibilityLabel={options.tabBarAccessibilityLabel}
             testID={options.tabBarTestID}
             onPress={onPress}

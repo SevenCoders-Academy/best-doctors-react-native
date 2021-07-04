@@ -1,16 +1,16 @@
 import React from 'react';
-import {AirbnbRating} from 'react-native-ratings';
-import {BaseContainer, Avatar, BaseText} from '../../atoms';
+import { AirbnbRating } from 'react-native-ratings';
+import { BaseContainer, Avatar, BaseText } from '../../atoms';
 
-import {AvatarContainer, TextContainer, RatingContainer} from './styles';
+import { AvatarContainer, TextContainer, RatingContainer } from './styles';
 
-export const ReviewCard = ({review}) => {
-  const {user} = review;
+export const ReviewCard = ({ review }) => {
+  const { user } = review;
 
   return (
     <BaseContainer dir="row" h="100" bg="white" w="328" br="16" mb="16">
       <AvatarContainer>
-        <Avatar source={{uri: user.image}} />
+        <Avatar source={{ uri: user.image }} />
       </AvatarContainer>
       <TextContainer>
         <BaseText size={12} color="dark" fontFamily="bold">

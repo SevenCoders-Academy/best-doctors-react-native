@@ -14,10 +14,10 @@ const SIZES = {
 };
 
 export const Avatar = styled.Image`
-  height: ${({theme, size}) =>
+  height: ${({ theme, size }) =>
     theme.metrics.px(size ? SIZES[size].w : SIZES.small.w)}px;
-  width: ${({theme, size}) =>
+  width: ${({ theme, size }) =>
     theme.metrics.px(size ? SIZES[size].h : SIZES.small.h)}px;
-  border-radius: ${({theme, size}) =>
+  border-radius: ${({ theme, size }) =>
     theme.metrics.px(size ? SIZES[size].br : SIZES.small.br)}px;
 `;
