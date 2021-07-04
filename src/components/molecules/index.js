@@ -6,3 +6,4 @@ export * from './ReviewCard';
 export * from './ServiceCard';
 export * from './TimeCard';
 export * from './Modal';
+export * from './CategoryCard';

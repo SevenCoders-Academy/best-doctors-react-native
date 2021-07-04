@@ -3,3 +3,4 @@ export * from './Profile';
 export * from './Search';
 export * from './History';
 export * from './DoctorDetail';
+export * from './CategoryDetail';

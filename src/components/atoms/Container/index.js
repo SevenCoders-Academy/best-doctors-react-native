@@ -46,6 +46,7 @@ export const BaseTouchContainer = styled.TouchableOpacity`
   background-color: ${({ theme, bg }) =>
     bg ? theme.colors[bg] : theme.colors.background};
   border-radius: ${({ theme, br }) => theme.metrics.px(br || 0)}px;
+  overflow: hidden;
 `;
 
 export const BaseBackground = styled.ImageBackground.attrs({
@@ -63,6 +64,8 @@ export const BaseBackground = styled.ImageBackground.attrs({
   margin-right: ${({ theme, mr }) => theme.metrics.px(mr || 0)}px;
   padding-top: ${({ theme, pt }) => theme.metrics.px(pt || 48)}px;
   padding-bottom: ${({ theme, pb }) => theme.metrics.px(pb || 0)}px;
+  padding-right: ${({ theme, pr }) => theme.metrics.px(pr || 0)}px;
+  padding-left: ${({ theme, pl }) => theme.metrics.px(pl || 0)}px;
   border-radius: ${({ theme, br }) => theme.metrics.px(br || 0)}px;
 `;
 
