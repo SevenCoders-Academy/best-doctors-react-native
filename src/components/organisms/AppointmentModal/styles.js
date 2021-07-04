@@ -7,7 +7,11 @@ export const DarkTransparentView = styled.View`
   background-color: ${({ theme }) => theme.colors.darkTransparent};
 `;
 
-export const ModalContentView = styled.View`
+export const ModalContentView = styled.ScrollView.attrs({
+  contentContainerStyle: {
+    paddingBottom: 48,
+  },
+})`
   position: absolute;
   bottom: 0;
   height: 80%;
@@ -15,5 +19,21 @@ export const ModalContentView = styled.View`
   background-color: ${({ theme }) => theme.colors.background};
   border-top-right-radius: ${({ theme }) => theme.metrics.px(24)}px;
   border-top-left-radius: ${({ theme }) => theme.metrics.px(24)}px;
-  padding: ${({ theme }) => theme.metrics.px(24)}px;
+`;
+
+export const ContentPaddingView = styled.View`
+  padding-horizontal: ${({ theme }) => theme.metrics.px(24)}px;
+`;
+
+export const ServicesView = styled.ScrollView.attrs({
+  contentContainerStyle: {
+    paddingLeft: 24,
+  },
+})``;
+
+export const TimesView = styled.View`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-horizontal: ${({ theme }) => theme.metrics.px(24)}px;
 `;
