@@ -13,6 +13,7 @@ export const ServiceCardContainer = styled.TouchableOpacity`
   border-color: ${({ theme, selected }) =>
     selected ? theme.colors.primary : theme.colors.greyDark};
   margin-right: ${({ theme }) => theme.metrics.px(12)}px;
+  background-color: ${({ theme }) => theme.colors.background};
 `;
 
 export const TitleContainer = styled.View`

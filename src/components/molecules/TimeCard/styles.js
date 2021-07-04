@@ -14,4 +14,5 @@ export const TimeCardContainer = styled.TouchableOpacity`
     selected ? theme.colors.primary : theme.colors.greyDark};
   margin-top: ${({ theme }) => theme.metrics.px(12)}px;
   margin-right: ${({ theme }) => theme.metrics.px(8)}px;
+  background-color: ${({ theme }) => theme.colors.background};
 `;

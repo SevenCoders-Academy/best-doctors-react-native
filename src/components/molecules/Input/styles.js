@@ -14,6 +14,7 @@ export const InputContainer = styled(BaseContainer)`
   border-radius: ${({ theme }) => theme.metrics.px(8)}px;
   padding-horizontal: ${({ theme }) => theme.metrics.px(6)}px;
   padding-vertical: ${({ theme }) => theme.metrics.px(2)}px;
+  background-color: ${({ theme }) => theme.colors.background};
 `;
 
 export const InputLabel = styled.Text`

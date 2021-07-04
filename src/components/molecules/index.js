@@ -5,3 +5,4 @@ export * from './DoctorCard';
 export * from './ReviewCard';
 export * from './ServiceCard';
 export * from './TimeCard';
+export * from './Modal';
