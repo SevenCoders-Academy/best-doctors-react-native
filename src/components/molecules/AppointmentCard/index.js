@@ -1,0 +1,55 @@
+import React from 'react';
+import { BaseTouchContainer, Avatar, BaseText } from '../../atoms';
+import { useNavigation } from '@react-navigation/native';
+import {
+  AvatarContainer,
+  TextContainer,
+  ServiceContainer,
+  DateContainer,
+} from './styles';
+import { useHistoryStore } from '~/services/store';
+
+export const AppointmentCard = ({ appointment }) => {
+  const { setAppointment } = useHistoryStore();
+  const { doctor, service, date } = appointment;
+  const navigation = useNavigation();
+
+  const onClick = () => {
+    setAppointment(appointment);
+    navigation.navigate('HistoryDetail');
+  };
+
+  return (
+    <BaseTouchContainer
+      onPress={onClick}
+      dir="row"
+      h="100"
+      bg="white"
+      w="328"
+      br="16">
+      <AvatarContainer>
+        <Avatar source={{ uri: doctor.image }} />
+      </AvatarContainer>
+      <TextContainer>
+        <BaseText size={16} color="dark" fontFamily="bold">
+          {doctor.name}
+        </BaseText>
+        <BaseText mb={12} size={12} color="greyDark">
+          {doctor.specialty}
+        </BaseText>
+
+        <ServiceContainer>
+          <BaseText size={12} fontFamily="semiBold" color="greyDark">
+            {service.title}
+          </BaseText>
+        </ServiceContainer>
+      </TextContainer>
+
+      <DateContainer>
+        <BaseText size={16} fontFamily="bold" color="greyDark">
+          {date}
+        </BaseText>
+      </DateContainer>
+    </BaseTouchContainer>
+  );
+};

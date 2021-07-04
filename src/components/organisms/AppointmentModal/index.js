@@ -26,13 +26,7 @@ export const AppointmentModal = ({ visible, onClose }) => {
 
       <ServicesView horizontal>
         {SERVICES_MOCK.map((item, index) => (
-          <ServiceCard
-            key={item.id}
-            title={item.title}
-            price={item.price}
-            description={item.description}
-            selected={index === 0}
-          />
+          <ServiceCard key={item.id} service={item} selected={index === 0} />
         ))}
       </ServicesView>
       <CardTitle ml={24} mt={24}>

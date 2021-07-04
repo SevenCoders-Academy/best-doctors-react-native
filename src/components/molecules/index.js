@@ -7,3 +7,4 @@ export * from './ServiceCard';
 export * from './TimeCard';
 export * from './Modal';
 export * from './CategoryCard';
+export * from './AppointmentCard';

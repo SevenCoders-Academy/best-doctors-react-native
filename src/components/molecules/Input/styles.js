@@ -6,7 +6,8 @@ export const InputContainer = styled(BaseContainer)`
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  width: ${({ theme }) => theme.metrics.baseWidth}px;
+  width: ${({ theme, w }) =>
+    w ? theme.metrics.px(w) : theme.metrics.baseWidth}px;
   height: ${({ theme }) => theme.metrics.px(56)}px;
   border-width: ${({ theme, focus }) => theme.metrics.px(focus ? 2 : 1)}px;
   border-color: ${({ theme, focus }) =>

@@ -1,10 +1,11 @@
 import React from 'react';
-import { BaseBackground, Title } from '~/components';
+import { BaseBackground, Title, HistoricList } from '~/components';
 
 export const HistoryScreen = () => {
   return (
-    <BaseBackground>
-      <Title>Histórico</Title>
+    <BaseBackground pr={24} pl={24}>
+      <Title mb={24}>Histórico</Title>
+      <HistoricList />
     </BaseBackground>
   );
 };

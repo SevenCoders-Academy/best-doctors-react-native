@@ -6,6 +6,7 @@ import {
   HistoryScreen,
   DoctorDetailScreen,
   CategoryDetail,
+  HistoryDetail,
 } from '../screens';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { BottomBar } from '~/components';
@@ -31,6 +32,7 @@ export const PatientNavigator = () => {
       <Stack.Screen name="Home" component={BottomNavigator} />
       <Stack.Screen name="DoctorDetail" component={DoctorDetailScreen} />
       <Stack.Screen name="CategoryDetail" component={CategoryDetail} />
+      <Stack.Screen name="HistoryDetail" component={HistoryDetail} />
     </Stack.Navigator>
   );
 };
