@@ -23,6 +23,7 @@ export const BaseContainer = styled.View`
   margin-right: ${({ theme, mr }) => theme.metrics.px(mr || 0)}px;
   padding-top: ${({ theme, pt }) => theme.metrics.px(pt || 0)}px;
   padding-bottom: ${({ theme, pb }) => theme.metrics.px(pb || 0)}px;
+  padding-horizontal: ${({ theme, ph }) => theme.metrics.px(ph || 0)}px;
   background-color: ${({ theme, bg }) =>
     bg ? theme.colors[bg] : theme.colors.transparent};
   border-radius: ${({ theme, br }) => theme.metrics.px(br || 0)}px;

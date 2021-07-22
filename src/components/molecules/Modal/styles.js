@@ -11,7 +11,7 @@ export const DarkTransparentView = styled.View`
 export const ModalBackground = styled(LinearGradient)`
   position: absolute;
   bottom: 0;
-  height: 90%;
+  height: ${({ theme, h }) => (h ? `${theme.metrics.px(h)}px` : '90%')};
   width: 100%;
   background-color: ${({ theme }) => theme.colors.background};
   border-top-right-radius: ${({ theme }) => theme.metrics.px(24)}px;

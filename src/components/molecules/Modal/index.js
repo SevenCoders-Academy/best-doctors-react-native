@@ -19,11 +19,13 @@ export const Modal = ({
   title,
   children,
   scroll,
+  h,
 }) => {
   return (
     <ModalView visibile={visible} transparent>
       <DarkTransparentView>
         <ModalBackground
+          h={h}
           colors={[
             'rgb(248, 243, 245)',
             'rgb(229, 235, 250)',

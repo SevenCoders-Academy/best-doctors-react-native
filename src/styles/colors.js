@@ -8,6 +8,7 @@ export const colors = {
   greyLight: '#F6F7F9',
   dark: '#333333',
   grey: '#E5E5E5',
+  danger: '#F60000',
   transparent: 'transparent',
   darkTransparent: 'rgba(0, 0, 0, 0.7)',
   darkTransparentLight: 'rgba(0, 0, 0, 0.3)',

@@ -7,6 +7,7 @@ export const Input = ({
   value,
   onChangeText,
   error,
+  multiline,
   ...props
 }) => {
   const [focus, setFocus] = useState(false);
@@ -21,6 +22,7 @@ export const Input = ({
           placeholder={placeholder}
           onChangeText={onChangeText}
           value={value}
+          multiline={multiline}
         />
       </InputContainer>
       {error && <ErrorLabel>{error}</ErrorLabel>}

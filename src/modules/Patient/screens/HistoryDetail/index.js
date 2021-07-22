@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
+import { isBefore } from 'date-fns';
 import {
   BaseBackground,
   BaseScrollContainer,
@@ -12,12 +13,19 @@ import {
   ServiceCard,
   BaseText,
   Button,
+  AppointmentReviewModal,
 } from '~/components';
 import { ObservationsContainer, DateTimeContainer } from './styles';
 import { useHistoryStore } from '~/services/store';
 
 export const HistoryDetail = () => {
   const { appointment } = useHistoryStore();
+  const [reviewModalOpen, setReviewModalOpen] = useState(false);
+
+  const isCancelable = useMemo(() => {
+    return isBefore(Date.now(), new Date(appointment.date));
+  }, [appointment?.date]);
+
   return (
     <BaseBackground>
       <BaseScrollContainer>
@@ -51,7 +59,19 @@ export const HistoryDetail = () => {
           </BaseText>
         </ObservationsContainer>
       </BaseScrollContainer>
-      <Button floating>AVALIAR CONSULTA</Button>
+      <Button
+        kind={isCancelable ? 'danger' : 'primary'}
+        onPress={() => setReviewModalOpen(true)}
+        floating>
+        {isCancelable ? 'CANCELAR CONSULTA' : 'AVALIAR CONSULTA'}
+      </Button>
+
+      {reviewModalOpen && (
+        <AppointmentReviewModal
+          visible={reviewModalOpen}
+          onClose={() => setReviewModalOpen(false)}
+        />
+      )}
     </BaseBackground>
   );
 };

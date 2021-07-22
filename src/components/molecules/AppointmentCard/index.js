@@ -1,4 +1,5 @@
 import React from 'react';
+import { format } from 'date-fns';
 import { BaseTouchContainer, Avatar, BaseText } from '../../atoms';
 import { useNavigation } from '@react-navigation/native';
 import {
@@ -47,7 +48,7 @@ export const AppointmentCard = ({ appointment }) => {
 
       <DateContainer>
         <BaseText size={16} fontFamily="bold" color="greyDark">
-          {date}
+          {format(new Date(date), 'dd/MM')}
         </BaseText>
       </DateContainer>
     </BaseTouchContainer>

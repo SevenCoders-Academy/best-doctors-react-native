@@ -1,7 +1,7 @@
 export const HISTORIC_MOCK = [
   {
     id: 0,
-    date: '02/05',
+    date: '05/02/2021',
     time: '09:00',
     doctor: {
       id: 0,
@@ -23,7 +23,7 @@ export const HISTORIC_MOCK = [
   },
   {
     id: 1,
-    date: '19/05',
+    date: '05/02/2021',
     time: '09:00',
     doctor: {
       name: 'Dr. Gustavo',
@@ -44,7 +44,7 @@ export const HISTORIC_MOCK = [
   },
   {
     id: 2,
-    date: '01/07',
+    date: '12/20/2021',
     time: '09:00',
     doctor: {
       name: 'Dr. Austin',

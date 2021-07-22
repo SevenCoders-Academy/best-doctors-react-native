@@ -8,7 +8,7 @@ export const InputContainer = styled(BaseContainer)`
   justify-content: flex-start;
   width: ${({ theme, w }) =>
     w ? theme.metrics.px(w) : theme.metrics.baseWidth}px;
-  height: ${({ theme }) => theme.metrics.px(56)}px;
+  height: ${({ theme, h }) => theme.metrics.px(h || 56)}px;
   border-width: ${({ theme, focus }) => theme.metrics.px(focus ? 2 : 1)}px;
   border-color: ${({ theme, focus }) =>
     focus ? theme.colors.primary : theme.colors.greyDark};
