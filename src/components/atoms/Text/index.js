@@ -19,7 +19,8 @@ export const BaseText = styled.Text`
 export const Title = styled(BaseText)`
   font-size: ${({ theme }) => theme.metrics.px(28)}px;
   font-family: ${({ theme }) => theme.fonts.bold};
-  color: ${({ theme }) => theme.colors.primary};
+  color: ${({ color, theme }) =>
+    color ? theme.colors[color] : theme.colors.primary};
 `;
 
 export const CardTitle = styled(BaseText)`

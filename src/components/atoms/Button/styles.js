@@ -11,19 +11,21 @@ export const ButtonContainer = styled(BaseTouchContainer)`
   align-items: center;
   justify-content: center;
   border-width: ${({ theme }) => theme.metrics.px(2)}px;
-  border-color: ${({ theme, bg }) => theme.colors[bg]};
-  position: ${({ floating }) => (floating ? 'absolute' : 'unset')};
-  bottom: ${({ floating, theme }) =>
-    floating ? `${theme.metrics.px(16)}px` : 'unset'};
-  left: ${({ floating, theme }) =>
-    floating ? `${theme.metrics.px(23.5)}px` : 'unset'};
-  right: ${({ floating, theme }) =>
-    floating ? `${theme.metrics.px(23.5)}px` : 'unset'};
+  border-color: ${({ theme, bc }) => theme.colors[bc]};
+
+  ${({ floating, theme }) =>
+    floating &&
+    `
+    position: absolute;
+    bottom: ${theme.metrics.px(16)}px;
+    left: ${theme.metrics.px(23.5)}px;
+    right: ${theme.metrics.px(23.5)}px
+  `}
 `;
 
 export const TextButton = styled.Text`
-  color: ${({ theme, outline }) =>
-    outline ? theme.colors.primary : theme.colors.background};
+  color: ${({ theme, color }) =>
+    color ? theme.colors[color] : theme.colors.background};
   font-size: ${({ theme }) => theme.metrics.px(16)}px;
   font-family: ${({ theme }) => theme.fonts.bold};
 `;

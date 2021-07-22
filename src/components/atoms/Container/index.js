@@ -45,7 +45,7 @@ export const BaseTouchContainer = styled.TouchableOpacity`
   padding-left: ${({ theme, pl }) => theme.metrics.px(pl || 0)}px;
   padding-right: ${({ theme, pr }) => theme.metrics.px(pr || 0)}px;
   background-color: ${({ theme, bg }) =>
-    bg ? theme.colors[bg] : theme.colors.background};
+    bg ? theme.colors[bg] : theme.colors.transparent};
   border-radius: ${({ theme, br }) => theme.metrics.px(br || 0)}px;
   overflow: hidden;
 `;

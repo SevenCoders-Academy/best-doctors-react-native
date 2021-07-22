@@ -6,3 +6,4 @@ export * from './TextOpen';
 export * from './Avatar';
 export * from './GoBackButton';
 export * from './SuccessImage';
+export * from './ErrorImage';

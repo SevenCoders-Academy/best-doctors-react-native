@@ -20,6 +20,7 @@ export const Modal = ({
   children,
   scroll,
   h,
+  type,
 }) => {
   return (
     <ModalView visibile={visible} transparent>
@@ -83,7 +84,10 @@ export const Modal = ({
             </ModalRegularView>
           )}
           {buttonText && (
-            <Button onPress={buttonAction} floating>
+            <Button
+              onPress={buttonAction}
+              kind={type === 'error' ? 'danger' : 'primary'}
+              floating>
               {buttonText}
             </Button>
           )}

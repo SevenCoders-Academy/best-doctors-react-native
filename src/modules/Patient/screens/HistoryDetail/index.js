@@ -14,6 +14,7 @@ import {
   BaseText,
   Button,
   AppointmentReviewModal,
+  FeedbackModal,
 } from '~/components';
 import { ObservationsContainer, DateTimeContainer } from './styles';
 import { useHistoryStore } from '~/services/store';
@@ -21,6 +22,7 @@ import { useHistoryStore } from '~/services/store';
 export const HistoryDetail = () => {
   const { appointment } = useHistoryStore();
   const [reviewModalOpen, setReviewModalOpen] = useState(false);
+  const [feedbackModalOpen, setFeedbackModalOpen] = useState(false);
 
   const isCancelable = useMemo(() => {
     return isBefore(Date.now(), new Date(appointment.date));
@@ -61,7 +63,9 @@ export const HistoryDetail = () => {
       </BaseScrollContainer>
       <Button
         kind={isCancelable ? 'danger' : 'primary'}
-        onPress={() => setReviewModalOpen(true)}
+        onPress={() =>
+          isCancelable ? setFeedbackModalOpen(true) : setReviewModalOpen(true)
+        }
         floating>
         {isCancelable ? 'CANCELAR CONSULTA' : 'AVALIAR CONSULTA'}
       </Button>
@@ -70,6 +74,17 @@ export const HistoryDetail = () => {
         <AppointmentReviewModal
           visible={reviewModalOpen}
           onClose={() => setReviewModalOpen(false)}
+        />
+      )}
+
+      {feedbackModalOpen && (
+        <FeedbackModal
+          type="error"
+          onClose={() => setFeedbackModalOpen(false)}
+          secondaryButtonText="CONFIRMAR CANCELAMENTO"
+          secondaryButtonAction={() => setFeedbackModalOpen(false)}
+          text="Deseja cancelar o agendamento?"
+          visible={feedbackModalOpen}
         />
       )}
     </BaseBackground>

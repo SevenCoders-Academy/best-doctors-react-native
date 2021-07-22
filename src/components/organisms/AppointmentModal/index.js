@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { CardTitle } from '~/components/atoms';
 import { Input, ServiceCard, TimeCard, Modal } from '~/components/molecules';
-import { SuccessModal } from '../SuccessModal';
+import { FeedbackModal } from '../FeedbackModal';
 import { ServicesView, ContentPaddingView, TimesView } from './styles';
 import { SERVICES_MOCK, TIME_MOCK } from './settings';
 
@@ -39,7 +39,7 @@ export const AppointmentModal = ({ visible, onClose }) => {
       </TimesView>
 
       {successModalVisible && (
-        <SuccessModal
+        <FeedbackModal
           visilble={successModalVisible}
           text="Agendamento realizado com sucesso!"
           onClose={onClose}
